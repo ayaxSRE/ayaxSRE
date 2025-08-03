@@ -1,7 +1,10 @@
 <h1 align="center"><b>Hi, I'm AyaxSRE</b> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1ubZByzrwuQSID-z8rmuh9bZZUKhep5h4" width="200"/>
+</p>
 
 ---
-
+<!--
 ## 🧑‍💻 About Me
 
 <img align="right" src="https://drive.google.com/uc?export=view&id=1ubZByzrwuQSID-z8rmuh9bZZUKhep5h4" width="200"/>
@@ -14,7 +17,7 @@ I'm AyaxSRE, a developer learning a bit of everything, hoping to master somethin
 - 🎵 When I'm not fighting with dependencies, I try to play the piano.
 - 🚀 Always eager to explore new technologies and bring ideas to life.
 
----
+--- -->
 ## Skills <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="26px" valign="middle">&nbsp;
 
 <span>
