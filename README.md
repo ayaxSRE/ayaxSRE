@@ -50,6 +50,12 @@ I'm AyaxSRE, a developer learning a bit of everything, hoping to master somethin
 
 <img src="https://streak-stats.demolab.com?user=ayaxSRE&theme=tokyonight&hide_border=true" width="600"/>
 
+<br>
+
+<a href="https://wakatime.com/@AyaxSRE">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@AyaxSRE&layout=compact&theme=tokyonight&hide_border=true&range=all_time" width="600"/>
+</a>
+
 </div>
 
 ---
