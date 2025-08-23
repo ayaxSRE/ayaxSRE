@@ -53,7 +53,7 @@ I'm AyaxSRE, a developer learning a bit of everything, hoping to master somethin
 <br>
 
 <a href="https://wakatime.com/@AyaxSRE">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@AyaxSRE&layout=compact&theme=tokyonight&hide_border=true&range=all_time" width="600"/>
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@AyaxSRE&layout=compact&theme=tokyonight&hide_border=true&range=all_time&langs_count=30" alt="AyaxSRE" />
 </a>
 
 </div>
