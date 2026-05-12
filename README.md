@@ -53,7 +53,6 @@ I'm AyaxSRE, a developer learning a bit of everything, hoping to master somethin
 -->
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=ayaxSRE&theme=tokyonight&hide_border=true" width="600"/>
-  <img src="https://raw.githubusercontent.com/ayaxSRE/ayaxSRE/refs/heads/main/assets/kaoruko.png" width="200"/>
 </p>
 
 <!--
