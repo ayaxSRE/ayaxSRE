@@ -1,0 +1,76 @@
+<svg width="940" height="484" viewBox="0 0 940 484" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="barclip">
+      <rect x="32" y="70" width="876" height="16" rx="8.0"/>
+    </clipPath>
+  </defs>
+  <rect width="940" height="484" rx="18" fill="#1a1b26" stroke="#292e42"/>
+  <text x="32" y="52" fill="#c0caf5" font-size="28" font-weight="600"
+        font-family="Segoe UI, sans-serif">Wakatime Stats</text>
+  <g clip-path="url(#barclip)">
+    <rect x="32" y="70" width="876" height="16" fill="#292e42"/>
+    <rect x="32.0" y="70" width="408.5" height="16" fill="#7aa2f7"/><rect x="440.5" y="70" width="291.8" height="16" fill="#bb9af7"/><rect x="732.3" y="70" width="46.4" height="16" fill="#7dcfff"/><rect x="778.7" y="70" width="37.4" height="16" fill="#7aa2f7"/><rect x="816.1" y="70" width="23.3" height="16" fill="#565f89"/><rect x="839.5" y="70" width="18.6" height="16" fill="#e0af68"/><rect x="858.1" y="70" width="9.6" height="16" fill="#e0af68"/><rect x="867.6" y="70" width="6.3" height="16" fill="#7aa2f7"/><rect x="873.9" y="70" width="5.4" height="16" fill="#73daca"/><rect x="879.3" y="70" width="5.2" height="16" fill="#73daca"/><rect x="884.5" y="70" width="4.4" height="16" fill="#e0af68"/><rect x="888.9" y="70" width="4.0" height="16" fill="#565f89"/><rect x="892.9" y="70" width="3.2" height="16" fill="#9ece6a"/><rect x="896.2" y="70" width="3.0" height="16" fill="#565f89"/><rect x="899.1" y="70" width="2.5" height="16" fill="#f7768e"/><rect x="901.6" y="70" width="2.5" height="16" fill="#e0af68"/><rect x="904.1" y="70" width="1.1" height="16" fill="#565f89"/><rect x="905.2" y="70" width="1.1" height="16" fill="#bb9af7"/><rect x="906.2" y="70" width="0.9" height="16" fill="#73daca"/><rect x="907.1" y="70" width="0.9" height="16" fill="#e0af68"/>
+  </g>
+  
+    <circle cx="38" cy="120" r="6" fill="#7aa2f7"/>
+    <text x="54" y="125" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">TypeScript - 228 hrs 1 min</text>
+    <circle cx="38" cy="154" r="6" fill="#bb9af7"/>
+    <text x="54" y="159" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Kotlin - 162 hrs 52 mins</text>
+    <circle cx="38" cy="188" r="6" fill="#7dcfff"/>
+    <text x="54" y="193" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">JSON - 25 hrs 55 mins</text>
+    <circle cx="38" cy="222" r="6" fill="#7aa2f7"/>
+    <text x="54" y="227" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Python - 20 hrs 51 mins</text>
+    <circle cx="38" cy="256" r="6" fill="#565f89"/>
+    <text x="54" y="261" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Markdown - 13 hrs 1 min</text>
+    <circle cx="38" cy="290" r="6" fill="#e0af68"/>
+    <text x="54" y="295" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">JavaScript - 10 hrs 24 mins</text>
+    <circle cx="38" cy="324" r="6" fill="#e0af68"/>
+    <text x="54" y="329" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">HTML - 5 hrs 21 mins</text>
+    <circle cx="38" cy="358" r="6" fill="#7aa2f7"/>
+    <text x="54" y="363" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Groovy - 3 hrs 32 mins</text>
+    <circle cx="38" cy="392" r="6" fill="#73daca"/>
+    <text x="54" y="397" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">TOML - 2 hrs 58 mins</text>
+    <circle cx="38" cy="426" r="6" fill="#73daca"/>
+    <text x="54" y="431" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">XML - 2 hrs 54 mins</text>
+  
+    <circle cx="486" cy="120" r="6" fill="#e0af68"/>
+    <text x="502" y="125" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Git Config - 2 hrs 28 mins</text>
+    <circle cx="486" cy="154" r="6" fill="#565f89"/>
+    <text x="502" y="159" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">CMake - 2 hrs 14 mins</text>
+    <circle cx="486" cy="188" r="6" fill="#9ece6a"/>
+    <text x="502" y="193" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Bash - 1 hr 47 mins</text>
+    <circle cx="486" cy="222" r="6" fill="#565f89"/>
+    <text x="502" y="227" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Other - 1 hr 40 mins</text>
+    <circle cx="486" cy="256" r="6" fill="#f7768e"/>
+    <text x="502" y="261" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">C++ - 1 hr 23 mins</text>
+    <circle cx="486" cy="290" r="6" fill="#e0af68"/>
+    <text x="502" y="295" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Java - 1 hr 22 mins</text>
+    <circle cx="486" cy="324" r="6" fill="#565f89"/>
+    <text x="502" y="329" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Text - 38 mins</text>
+    <circle cx="486" cy="358" r="6" fill="#bb9af7"/>
+    <text x="502" y="363" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">CSS - 35 mins</text>
+    <circle cx="486" cy="392" r="6" fill="#73daca"/>
+    <text x="502" y="397" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">Protocol Buffer - 28 mins</text>
+    <circle cx="486" cy="426" r="6" fill="#e0af68"/>
+    <text x="502" y="431" fill="#a9b1d6" font-size="15"
+          font-family="Segoe UI, sans-serif">GitIgnore file - 28 mins</text>
+</svg>
