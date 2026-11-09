@@ -3,8 +3,10 @@ import sys
 import math
 import hashlib
 import requests
+import time
 
 WAKATIME_API_KEY = os.environ.get("WAKATIME_API_KEY")
+WAKATIME_TOKEN = os.environ.get("WAKATIME_TOKEN")
 RANGE = os.environ.get("WAKATIME_RANGE", "all_time")
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "assets/wakatime.svg")
 MAX_LANGS = int(os.environ.get("MAX_LANGS", "15"))
@@ -63,13 +65,25 @@ def color_for(name):
     return ACCENTS[idx]
 
 def fetch_stats():
-    if not WAKATIME_API_KEY:
-        print("Falta WAKATIME_API_KEY", file=sys.stderr)
+    if not WAKATIME_TOKEN:
+        print("Falta WAKATIME_TOKEN", file=sys.stderr)
         sys.exit(1)
-    url = f"https://wakatime.com/api/v1/users/current/stats/{RANGE}"
-    resp = requests.get(url, auth=(WAKATIME_API_KEY, ""), timeout=30)
-    resp.raise_for_status()
-    return resp.json()["data"]
+
+    url = f"https://api.wakatime.com/api/v1/users/current/stats/{RANGE}"
+    headers = {"Authorization": f"Bearer {WAKATIME_TOKEN}"}
+
+    data = {}
+    for _ in range(5):
+        resp = requests.get(url, headers=headers, timeout=30)
+        if not resp.ok:
+            print(f"HTTP {resp.status_code}", file=sys.stderr)
+            print(resp.text[:500], file=sys.stderr)
+            resp.raise_for_status()
+        data = resp.json()["data"]
+        if resp.status_code == 200 and data.get("is_up_to_date", True):
+            return data
+        time.sleep(10)
+    return data
 
 def build_svg(data):
     langs = data.get("languages", [])[:MAX_LANGS]

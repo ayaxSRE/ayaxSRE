@@ -23,8 +23,8 @@ jobs:
 
       - name: Generar SVG
         env:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          MAX_LANGS: "20"
+          WAKATIME_TOKEN: ${{ secrets.WAKATIME_TOKEN }}
+          MAX_LANGS: "24"
         run: python scripts/wakatime_svg.py
 
       - name: Commit y push
